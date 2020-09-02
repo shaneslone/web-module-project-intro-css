@@ -128,7 +128,6 @@ table {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
 }
 html {
   font-size: 62.5%;
@@ -142,57 +141,85 @@ nav {
 }
 .button {
   display: inline-block;
-  width: 150px;
-  padding: 1% 0;
+  width: 10%;
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  padding: 10px;
 }
 .plan {
   background-color: #ff764e;
 }
 .learn {
   background-color: #5ed3eb;
-  margin-left: 45vh;
+  margin-left: 20%;
 }
 .involved {
   background-color: #ffcd69;
-  margin-left: 45vh;
+  margin-left: 20%;
 }
-.header-content {
-  padding: 10vh 0;
-}
+/* .header-content {
+
+} */
+
 header img {
   display: inline-block;
-  height: 40vh;
+  width: 20%;
   border-radius: 50%;
-  margin-left: 10vh;
-  border 1px solid black;
+  margin-left: 5%;
 }
 .header-text {
   display: inline-block;
   text-align: center;
-  font-size: 2rem;
-  height: 40vh;
+  font-size: 3rem;
   width: 50%;
-  margin-left: 20vh;
+  margin-left: 5%;
 }
 header p {
   margin: 5% auto;
-  width: 70vh;
+  letter-spacing: 0.1rem;
 }
 h1 {
   font-family: 'Chelsea Market', cursive;
-  font-size: 7rem;
+  font-size: 9rem;
+  margin: 10% auto;
 }
 .section-one {
   background-color: #ddb9a3;
   font-size: 3rem;
+  color: white;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-one p {
+  padding: 1%;
+}
+strong {
+  font-weight: bold;
+}
+.section-two {
+  text-align: center;
+  font-size: 2rem;
+}
+.section-two p {
+  width: 25%;
+  margin: 0 auto;
+  letter-spacing: 0.1rem;
+}
+.section-two img {
+  width: 15%;
+  margin: 2.5%;
 }
 footer {
   background-color: #f9e7dc;
 }
-footer img {
-  width: 100%;
+.footer-img {
+    background-image:url('assets/footer_img.jpg');
+    width: 100%
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40vh;
 }
